@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autodienst Mlinski — Kfz-Werkstatt in Kiel</title>
+<meta name="description" content="Autodienst Mlinski — kompetenter Kfz-Service in Kiel: Inspektion, Diagnose, Achsvermessung, Reifen, Klima und HU/AU für alle Marken. Persönlich, transparent, fair.">
+<meta name="theme-color" content="#0a0d12">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Autodienst Mlinski">
+<meta property="og:title" content="Autodienst Mlinski — Kfz-Werkstatt in Kiel">
+<meta property="og:description" content="Inspektion, Diagnose, Achsvermessung, Reifen, Klima und HU/AU — persönlich, transparent und fachgerecht. Für alle Marken.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/hero.webp" as="image" fetchpriority="high">
+<script>
+  // content that animates in is only hidden while JS runs; if the app script never boots, show everything after 6 s
+  document.documentElement.classList.add('js');
+  setTimeout(function () { if (!window.__mlinskiReady) document.documentElement.classList.remove('js'); }, 6000);
+</script>
+<link rel="stylesheet" href="css/style.css">
+<!-- Hours/address come from the contact card of the design — keep in sync with the visible contact block. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Autodienst Mlinski",
+  "description": "Kfz-Werkstatt in Kiel für alle Marken: Inspektion, Diagnose, Achsvermessung, Karosserie, Klimaservice, Reifenservice, Unfallservice und HU/AU.",
+  "telephone": "+49 431 678578",
+  "email": "autodienst-kiel@t-online.de",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Michelsenstraße 4",
+    "postalCode": "24114",
+    "addressLocality": "Kiel",
+    "addressCountry": "DE"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "13:00" }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<!-- Figures (25+ Jahre / 3.500+ Kunden / 7 Bereiche / 100 %) and "seit 1998" come from the client's old site — verify against real records before launch. -->
+
+<!-- Sticky mobile CTA bar (phones only) — swap WHATSAPP_NUMBER in js/app.js for the workshop's real mobile/WhatsApp Business number
+     (a landline like 0431-678578 won't receive WhatsApp messages); until then the WhatsApp button stays hidden. -->
+<div class="mobile-cta">
+  <a href="tel:0431678578" class="mobile-cta__btn mobile-cta__btn--call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z"/></svg>
+    Anrufen
+  </a>
+  <a id="waMobileBtn" href="#" target="_blank" rel="noopener" class="mobile-cta__btn mobile-cta__btn--wa">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.45 1.32 4.95L2 22l5.2-1.36a9.9 9.9 0 0 0 4.84 1.24h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2Zm5.84 14.1c-.25.7-1.24 1.28-2.02 1.44-.55.12-1.26.2-3.66-.79-3.07-1.27-5.05-4.36-5.2-4.56-.15-.2-1.24-1.65-1.24-3.15s.78-2.23 1.06-2.53c.25-.27.55-.34.73-.34h.53c.17 0 .4-.03.63.48.25.56.84 1.94.91 2.08.07.14.12.3.02.49-.1.19-.15.3-.3.46-.15.16-.31.37-.44.5-.15.14-.3.3-.13.6.17.3.76 1.26 1.64 2.04 1.13.99 2.08 1.3 2.38 1.45.3.15.48.13.65-.08.17-.2.73-.85.93-1.14.19-.3.39-.24.65-.14.27.1 1.7.8 1.99.94.3.15.48.22.55.34.07.13.07.71-.18 1.4Z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<div class="page">
+
+<header class="nav" id="nav">
+  <div class="nav__row wrap">
+    <a href="#hero" class="nav__logo" aria-label="Autodienst Mlinski — zum Seitenanfang">AUTODIENST MLINSKI</a>
+
+    <nav class="nav__menu" id="navMenu" aria-label="Hauptnavigation">
+      <a href="#hero" class="is-current">Startseite</a>
+      <a href="#services">Leistungen</a>
+      <a href="#diagnostics">Diagnose</a>
+      <a href="#warum">Über uns</a>
+      <a href="#termin">Kontakt</a>
+    </nav>
+
+    <a href="#termin" class="btn btn--dark nav__cta">Termin anfragen
+      <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+
+    <button type="button" class="nav__burger" id="navBurger" aria-expanded="false" aria-controls="navMenu" aria-label="Menü öffnen">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <h1 class="hero__title" data-intro>Ihr Partner für alle Marken.<br>Kompetenter <span class="nowrap">Kfz-Service</span> in&nbsp;Kiel.</h1>
+        <p class="hero__text" data-intro>Inspektion, Reparatur, Diagnose und mehr – zuverlässig, fair und persönlich. Für Ihre Mobilität. Jeden Tag.</p>
+        <div class="hero__actions" data-intro>
+          <a href="#services" class="btn btn--dark">Leistungen ansehen
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#termin" class="btn btn--ghost">Beratung anfordern</a>
+        </div>
+      </div>
+
+      <!-- the photo sits in a rounded frame, the car itself (hero-cut.webp, same pixels, background removed) is laid over it
+           and may leave the frame on the left — as in the design render -->
+      <div class="hero__media" data-intro>
+        <div class="hero__frame">
+          <img class="hero__img" src="assets/img/hero.webp" width="1600" height="1367" alt="Oldtimer mit geöffneter Motorhaube auf einem Montagewagen in der Werkstatt" fetchpriority="high">
+        </div>
+        <span class="hero__shadow" aria-hidden="true"></span>
+        <img class="hero__cut" src="assets/img/hero-cut.webp" width="352" height="1367" alt="" aria-hidden="true">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats" aria-label="Autodienst Mlinski in Zahlen">
+    <div class="wrap">
+      <ul class="stats__row">
+        <li class="stats__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="m8.8 13.3-1.6 7.2 4.8-2.6 4.8 2.6-1.6-7.2"/></svg>
+          <div><strong data-count="25" data-suffix="+">25+</strong><span>Jahre Erfahrung</span></div>
+        </li>
+        <li class="stats__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c.6-3.6 3.3-6 6.5-6s5.9 2.4 6.5 6M16 10.5c1.8.3 3.2 1.9 3.6 4M14.5 5c1.4.4 2.5 1.7 2.5 3.2 0 1.5-1 2.8-2.4 3.2"/></svg>
+          <div><strong data-count="3500" data-suffix="+" data-format="de">3.500+</strong><span>zufriedene Kunden</span></div>
+        </li>
+        <li class="stats__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16v-3.5L5.2 8h11.6L19 12.5V16"/><path d="M3 16h16M7 16v2M17 16v2"/><circle cx="7" cy="16" r="1.5"/><circle cx="17" cy="16" r="1.5"/></svg>
+          <div><strong data-count="7" data-suffix="">7</strong><span>Service-Bereiche</span></div>
+        </li>
+        <li class="stats__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5 4.5 5.4v5.8c0 4.7 3.2 8.6 7.5 10.3 4.3-1.7 7.5-5.6 7.5-10.3V5.4L12 2.5Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>
+          <div><strong data-count="100" data-suffix=" %">100 %</strong><span>Einsatz für Ihre Mobilität</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES (card rail) ============ -->
+  <section id="services" class="services">
+    <div class="wrap">
+      <div class="head">
+        <h2 class="h2">Unsere Leistungen</h2>
+        <button type="button" class="btn btn--ghost btn--sm" id="railAll" aria-expanded="false">Alle ansehen
+          <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div class="rail" id="rail">
+        <div class="rail__viewport" id="railViewport" role="region" aria-label="Leistungen" tabindex="0">
+          <!-- Prices are examples — set the real ones before launch. Photos: see "Bildnachweise" in impressum.html. -->
+          <ul class="rail__track" id="railTrack">
+            <li class="svc"><a href="#termin" data-service="Inspektion &amp; Ölwechsel">
+              <div class="svc__media"><img src="assets/img/svc-inspektion.webp" width="1200" height="800" loading="lazy" alt="Hand zieht den Ölmessstab im Motorraum"></div>
+              <div class="svc__body"><div><h3>Inspektion &amp; Ölwechsel</h3><p>Nach Herstellervorgaben • Werterhalt</p></div><span class="svc__price">ab 89 €</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Achsvermessung">
+              <div class="svc__media"><img src="assets/img/svc-achse.webp" width="1200" height="800" loading="lazy" alt="Mechaniker spannt ein Federbein mit dem Federspanner"></div>
+              <div class="svc__body"><div><h3>Achsvermessung</h3><p>Fahrverhalten • Reifenverschleiß</p></div><span class="svc__price">ab 59 €</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Fahrzeugdiagnose">
+              <div class="svc__media"><img src="assets/img/svc-diagnose.webp" width="1200" height="800" loading="lazy" alt="Techniker liest mit dem Laptop die Fahrzeugdiagnose aus"></div>
+              <div class="svc__body"><div><h3>Fahrzeugdiagnose</h3><p>Moderne Technik • schnelle Fehleranalyse</p></div><span class="svc__price">ab 39 €</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Karosseriearbeiten">
+              <div class="svc__media"><img src="assets/img/svc-karosserie.webp" width="1200" height="800" loading="lazy" alt="Fahrzeug mit abgenommener Frontpartie in der Werkstatt"></div>
+              <div class="svc__body"><div><h3>Karosseriearbeiten</h3><p>Instandsetzung • nach Herstellervorgaben</p></div><span class="svc__price">auf Anfrage</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Klimaservice">
+              <div class="svc__media"><img src="assets/img/svc-klima.webp" width="1200" height="800" loading="lazy" alt="Lüftungsdüse und Klimabedienung im Fahrzeuginnenraum"></div>
+              <div class="svc__body"><div><h3>Klimaservice</h3><p>Angenehmes Fahrklima • Wartung</p></div><span class="svc__price">ab 69 €</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Reifenservice">
+              <div class="svc__media"><img src="assets/img/svc-reifen.webp" width="1200" height="800" loading="lazy" alt="Gestapelte Reifen und Rangierwagenheber in der Werkstatt"></div>
+              <div class="svc__body"><div><h3>Reifenservice</h3><p>Montage • Wuchten • Einlagerung</p></div><span class="svc__price">ab 25 €</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="Unfallservice">
+              <div class="svc__media"><img src="assets/img/svc-unfall.webp" width="1200" height="800" loading="lazy" alt="Unfallfahrzeug mit beschädigter Front wird instand gesetzt"></div>
+              <div class="svc__body"><div><h3>Unfallservice</h3><p>Komplettabwicklung • unkompliziert</p></div><span class="svc__price">auf Anfrage</span></div>
+            </a></li>
+            <li class="svc"><a href="#termin" data-service="HU / AU">
+              <div class="svc__media"><img src="assets/img/svc-hu.webp" width="1200" height="800" loading="lazy" alt="Orangefarbene Prüfplaketten der Hauptuntersuchung"></div>
+              <div class="svc__body"><div><h3>HU / AU</h3><p>Hauptuntersuchung • Abgasuntersuchung</p></div><span class="svc__price">auf Anfrage</span></div>
+            </a></li>
+          </ul>
+        </div>
+        <button type="button" class="rail__arrow" id="railNext" aria-label="Weitere Leistungen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIAGNOSTICS (dark card, pinned while the 3D engine tours its 17 parts) ============ -->
+  <section id="diagnostics" class="diagnostics">
+    <div class="wrap">
+      <div class="engine-card" id="engineCard">
+        <div class="engine-card__info">
+          <div class="diag__intro">
+            <h2 class="diagnostics__title">Präzise Diagnose. Zuverlässige Lösungen.</h2>
+            <p class="diagnostics__text">Moderne Diagnosetechnik, langjährige Erfahrung und ein geschultes Auge – damit Ihr Fahrzeug schnell wieder auf die Straße kommt.</p>
+          </div>
+
+          <div class="diagnostics__metrics">
+            <div class="metric"><strong>100&nbsp;%</strong><span>Moderne Diagnosetechnik</span></div>
+            <div class="metric"><strong>Alle Marken</strong><span>Kompetenter Service</span></div>
+            <div class="metric"><strong>Schnell</strong><span>Transparente Abwicklung</span></div>
+          </div>
+
+          <div class="diag__checklist">
+            <div class="diag__checklist-title"><span>Was unsere Diagnose umfasst</span><span class="diag__status"><span class="diag__status-dot"></span>System bereit</span></div>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M9 5h6l1 3h2v3h-2l-2 2v6H8v-6l-2-2H4V8h2l1-3Z"/><circle cx="12" cy="15" r="2"/></svg><span>Motor &amp; Steuergerät</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Bremsen &amp; Fahrwerk</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg><span>Elektronik &amp; Sensorik</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18c0-3 1-5 1-8a5 5 0 0 1 10 0c0 3 1 5 1 8"/><path d="M6 18h12M9 18v2M15 18v2"/></svg><span>Abgaswerte &amp; Emissionen</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 3c3 3 6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 9 6 12 3Z"/></svg><span>Ölstand &amp; Filter</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M12 3v2M12 19v2M21 12h-2M5 12H3"/></svg><span>Reifen &amp; Profiltiefe</span></li>
+            </ul>
+          </div>
+
+          <a href="#termin" class="btn btn--light diag__cta" data-service="Fahrzeugdiagnose">Diagnose &amp; Reparatur
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+
+          <div class="part-info" id="partInfo" aria-live="polite">
+            <div class="part-info__top">
+              <span class="part-info__idx" id="partInfoIdx">Bauteile</span>
+              <div class="part-info__nav">
+                <button type="button" id="partPrev" aria-label="Vorheriges Bauteil">←</button>
+                <button type="button" id="partNext" aria-label="Nächstes Bauteil">→</button>
+              </div>
+            </div>
+            <div class="part-info__empty">
+              <p>Scrollen Sie weiter – der Motor stellt Ihnen Bauteil für Bauteil vor. Oder klicken Sie selbst eines am Motor an.</p>
+            </div>
+            <div class="part-info__detail">
+              <h3 class="part-info__name" id="partInfoName">—</h3>
+              <p class="part-info__desc" id="partInfoDesc"></p>
+            </div>
+            <div class="part-info__dots" id="partInfoDots" role="group" aria-label="Alle Bauteile"></div>
+          </div>
+        </div>
+
+        <div class="diagnostics__dark">
+          <div class="diagnostics__pin">
+            <div class="diag__header">
+              <span class="diag__stage-num"><em id="stageCurrent">01</em> / 03</span>
+              <span class="diag__stage-name" id="stageName">MOTOR</span>
+            </div>
+            <div class="diag__readout">
+              <span>FAHRZEUGDIAGNOSE</span>
+              <span>LIVE-ANALYSE</span>
+              <span>SYSTEMCHECK</span>
+              <span>FEHLERSPEICHER</span>
+            </div>
+
+            <div class="engine-stage" id="engine3d" role="img" aria-label="3D-Modell eines Motors, das sich beim Scrollen dreht"></div>
+
+            <div class="leader leader--1">
+              <span class="leader__line"></span>
+              <span class="leader__label"><strong>LEISTUNG</strong><em>Analysieren</em></span>
+            </div>
+            <div class="leader leader--2">
+              <span class="leader__line"></span>
+              <span class="leader__label"><strong>SENSORIK</strong><em>Prüfen</em></span>
+            </div>
+            <div class="leader leader--3">
+              <span class="leader__line"></span>
+              <span class="leader__label"><strong>SYSTEME</strong><em>Optimieren</em></span>
+            </div>
+
+            <div class="diag__hint">
+              <span class="diag__mouse"><i></i></span>
+              <span>Scrollen für die Tour<br><em>Ziehen zum Drehen · Teile anklicken</em></span>
+            </div>
+            <div class="diag__stages">
+              <span class="diag__stage-dot is-active" data-stage="1">01</span>
+              <span class="diag__stage-line"><i id="stageProgress"></i></span>
+              <span class="diag__stage-dot" data-stage="2">02</span>
+              <span class="diag__stage-line"><i></i></span>
+              <span class="diag__stage-dot" data-stage="3">03</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABLAUF — four icon cards ============ -->
+  <section id="ablauf" class="ablauf">
+    <div class="wrap">
+      <div class="head"><h2 class="h2">So arbeiten wir</h2></div>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z"/></svg></span>
+          <h3>Kontakt aufnehmen</h3>
+          <p>Anrufen, schreiben oder Termin online anfragen – Sie schildern kurz Ihr Anliegen.</p>
+          <svg class="step__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </li>
+        <li class="step reveal">
+          <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="14" height="10" rx="1.5"/><path d="M8 19h6M10 15v4M14 8h3M14 11h3"/></svg></span>
+          <h3>Diagnose &amp; Kostenvoranschlag</h3>
+          <p>Wir prüfen Ihr Fahrzeug und nennen die Kosten, bevor wir starten.</p>
+          <svg class="step__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </li>
+        <li class="step reveal">
+          <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 1-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 1 5.4-5.4L21 6l-3-3-3.3 3.3Z"/></svg></span>
+          <h3>Fachgerechte Reparatur</h3>
+          <p>Ausführung mit Qualitätsteilen – transparent und termingerecht.</p>
+          <svg class="step__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </li>
+        <li class="step reveal">
+          <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5 4.5 5.4v5.8c0 4.7 3.2 8.6 7.5 10.3 4.3-1.7 7.5-5.6 7.5-10.3V5.4L12 2.5Z"/></svg></span>
+          <h3>Abholung &amp; Übergabe</h3>
+          <p>Klare Rechnung, kurze Erklärung – und Sie sind wieder mobil.</p>
+          <svg class="step__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ WARUM MLINSKI ============ -->
+  <section id="warum" class="warum">
+    <div class="wrap warum__grid">
+      <div class="warum__copy">
+        <h2 class="h2">Warum Autodienst Mlinski</h2>
+        <ul class="feature-list">
+          <li class="reveal">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></span>
+            <div><h3>Moderne Technik</h3><p>Herstellerübergreifende Diagnosetechnik für alle Marken.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5 4.5 5.4v5.8c0 4.7 3.2 8.6 7.5 10.3 4.3-1.7 7.5-5.6 7.5-10.3V5.4L12 2.5Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg></span>
+            <div><h3>Transparente Abwicklung</h3><p>Ehrliche Beratung und faire Preise – Kosten vorab, keine Überraschungen.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span>
+            <div><h3>Erfahrenes Team</h3><p>Kompetenz und Leidenschaft seit 1998 – mit persönlichem Ansprechpartner.</p></div>
+          </li>
+          <!-- Confirm the real warranty terms with the owner before launch. -->
+          <li class="reveal">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9L6.7 19.5l1.1-6L3.4 9.3l6-.8L12 3Z"/></svg></span>
+            <div><h3>12 Monate Garantie</h3><p>Auf alle durchgeführten Reparaturen.</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <figure class="warum__media">
+        <img src="assets/img/werkstatt.webp" width="1800" height="1200" loading="lazy" alt="Werkstatt mit Hebezeug und einem Fahrzeug mit geöffneter Motorhaube">
+        <a class="warum__chip" href="https://www.google.com/maps/search/?api=1&amp;query=Michelsenstra%C3%9Fe%204%2C%2024114%20Kiel" target="_blank" rel="noopener" aria-label="Besuchen Sie uns: Michelsenstraße 4, Kiel – Route in Google Maps öffnen (externe Seite)">
+          <span class="warum__chip-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 22s7-7.4 7-12.6C19 5.3 15.9 2 12 2S5 5.3 5 9.4C5 14.6 12 22 12 22Zm0-9.6a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg></span>
+          <span class="warum__chip-text"><strong>Besuchen Sie uns</strong><small>Michelsenstraße 4 · 24114 Kiel</small></span>
+          <span class="warum__chip-time">Route</span>
+        </a>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <!-- Placeholder reviews — replace with real customer quotes (with permission) before launch. -->
+  <section id="testimonials" class="testimonials">
+    <div class="wrap">
+      <div class="head"><h2 class="h2">Was unsere Kunden sagen</h2></div>
+      <div class="testimonials__grid">
+        <article class="testi reveal">
+          <div class="testi__stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          <p class="testi__quote">„Schnelle Diagnose, faire Preise. Mein Kombi läuft wieder wie neu.“</p>
+          <div class="testi__by"><strong>M. Petersen</strong><span>VW Passat</span></div>
+        </article>
+        <article class="testi reveal">
+          <div class="testi__stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          <p class="testi__quote">„Seit Jahren meine Werkstatt in Kiel. Immer ehrlich beraten, nie abgezockt.“</p>
+          <div class="testi__by"><strong>S. Jansen</strong><span>BMW 3er</span></div>
+        </article>
+        <article class="testi reveal">
+          <div class="testi__stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          <p class="testi__quote">„Unfallschaden professionell behoben, alles direkt mit der Versicherung geklärt.“</p>
+          <div class="testi__by"><strong>T. Krüger</strong><span>Audi A4</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="faq">
+    <div class="wrap faq__grid">
+      <div class="faq__head">
+        <h2 class="h2">Gut zu wissen</h2>
+        <p class="faq__lead">Ihre Frage ist nicht dabei? Rufen Sie uns einfach an – wir beraten Sie gern persönlich.</p>
+        <a href="tel:0431678578" class="btn btn--ghost">0431 – 678578</a>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item" open>
+          <summary>Wie oft sollte ich eine Inspektion durchführen lassen?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>In der Regel alle 12 Monate oder 15.000 km, je nach Herstellervorgabe Ihres Fahrzeugs. Wir prüfen das gerne für Ihr Modell.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Geben Sie Garantie auf Ihre Arbeiten?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>Ja, wir geben 12 Monate Garantie auf alle bei uns durchgeführten Reparaturen.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Verwenden Sie Original- oder Alternativteile?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>Nach Wunsch: Originalteile oder geprüfte Markenersatzteile. Wir beraten Sie transparent zu Preis und Qualität.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Wie lange dauert eine typische Reparatur?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>Je nach Umfang von wenigen Stunden bis zu 2–3 Werktagen. Wir informieren Sie vorab über die voraussichtliche Dauer.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Muss ich vorher einen Termin vereinbaren?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>Für Reparaturen und Diagnosen empfehlen wir einen Termin. Für kleinere Anliegen sind Sie auch spontan willkommen.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Übernehmen Sie die Abwicklung mit der Versicherung?<span class="faq__toggle" aria-hidden="true"></span></summary>
+          <p>Ja, bei Unfallschäden übernehmen wir auf Wunsch die komplette Kommunikation mit Ihrer Versicherung.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAKT (dark card with form, photo and legal bar) ============ -->
+  <section id="termin" class="contact-section">
+    <div class="wrap">
+      <div class="contact" id="contact">
+        <div class="contact__info">
+          <h2 class="contact__title">Wir sind für Sie da.</h2>
+          <!-- Placeholder offer — confirm the real terms/percentage with the owner before launch. -->
+          <p class="contact__lead">Schildern Sie uns kurz Ihr Anliegen, wir melden uns und finden gemeinsam einen Termin. Neukunden: 10&nbsp;% Rabatt auf die erste Inspektion.</p>
+          <ul class="contact__rows">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z"/></svg>
+              <a href="tel:0431678578">0431 – 678578</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6.5 8 6 8-6"/></svg>
+              <a href="mailto:autodienst-kiel@t-online.de">autodienst-kiel@t-online.de</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s7-7.4 7-12.6C19 5.3 15.9 2 12 2S5 5.3 5 9.4C5 14.6 12 22 12 22Z"/><circle cx="12" cy="9.4" r="2.6"/></svg>
+              <span>Michelsenstraße 4, 24114 Kiel</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+              <span>Mo – Do 08:00 – 17:00 · Fr 08:00 – 13:00<small>HU/AU täglich nach Vereinbarung</small><small class="open-status" id="openStatus"><i class="status-dot" aria-hidden="true"></i><span id="openStatusMain">Öffnungszeiten</span> <span id="openStatusSub"></span></small></span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="terminForm" novalidate>
+          <label class="sr-only" for="tfName">Name</label>
+          <input id="tfName" name="name" type="text" autocomplete="name" placeholder="Ihr Name *" required>
+          <label class="sr-only" for="tfPhone">Telefon</label>
+          <input id="tfPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Telefon *" required>
+          <label class="sr-only" for="tfService">Anliegen</label>
+          <select id="tfService" name="service">
+            <option>Inspektion &amp; Ölwechsel</option>
+            <option>Fahrzeugdiagnose</option>
+            <option>Achsvermessung</option>
+            <option>Karosseriearbeiten</option>
+            <option>Klimaservice</option>
+            <option>Reifenservice</option>
+            <option>Unfallservice</option>
+            <option>HU / AU</option>
+            <option>Sonstiges</option>
+          </select>
+          <label class="sr-only" for="tfMsg">Nachricht</label>
+          <textarea id="tfMsg" name="msg" rows="3" placeholder="Nachricht – z. B. Fahrzeug, Baujahr, Wunschtermin"></textarea>
+          <button type="submit" class="contact__submit">Anfrage senden
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <button type="button" class="contact__wa" id="tfWhatsApp">Per WhatsApp senden</button>
+          <label class="consent">
+            <input type="checkbox" id="tfConsent" required>
+            <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verwendet werden. *</span>
+          </label>
+          <p class="contact__note" id="tfNote" role="status">Beim Absenden öffnet sich Ihr E-Mail-Programm mit der vorbereiteten Anfrage.</p>
+        </form>
+
+        <div class="contact__photo" aria-hidden="true">
+          <img src="assets/img/kontakt.webp" width="1600" height="1100" loading="lazy" alt="">
+        </div>
+
+        <div class="contact__bar">
+          <p class="contact__legal">© <span id="year">2025</span> Autodienst Mlinski. Alle Rechte vorbehalten.<small>Inhaber Norman Witt · HRA 8535 Kiel · USt-IdNr. DE335126768</small></p>
+          <nav class="contact__links" aria-label="Rechtliches">
+            <a href="datenschutz.html">Datenschutz</a>
+            <a href="impressum.html">Impressum</a>
+            <a href="impressum.html#bildnachweise">Bildnachweise</a>
+          </nav>
+          <!-- Social links: add the workshop's real Facebook/Instagram URLs here as extra icons; until then the icons below are the real contact channels. -->
+          <div class="contact__icons">
+            <a href="tel:0431678578" aria-label="Anrufen"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z"/></svg></a>
+            <a href="mailto:autodienst-kiel@t-online.de" aria-label="E-Mail schreiben"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 6.5A2.5 2.5 0 0 1 5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11Zm2.1.1 6.9 5.3 6.9-5.3H5.1Z"/></svg></a>
+            <a href="#" id="waFloatBtn" target="_blank" rel="noopener" aria-label="WhatsApp schreiben" class="contact__wa-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.45 1.32 4.95L2 22l5.2-1.36a9.9 9.9 0 0 0 4.84 1.24h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2Zm5.84 14.1c-.25.7-1.24 1.28-2.02 1.44-.55.12-1.26.2-3.66-.79-3.07-1.27-5.05-4.36-5.2-4.56-.15-.2-1.24-1.65-1.24-3.15s.78-2.23 1.06-2.53c.25-.27.55-.34.73-.34h.53c.17 0 .4-.03.63.48.25.56.84 1.94.91 2.08.07.14.12.3.02.49-.1.19-.15.3-.3.46-.15.16-.31.37-.44.5-.15.14-.3.3-.13.6.17.3.76 1.26 1.64 2.04 1.13.99 2.08 1.3 2.38 1.45.3.15.48.13.65-.08.17-.2.73-.85.93-1.14.19-.3.39-.24.65-.14.27.1 1.7.8 1.99.94.3.15.48.22.55.34.07.13.07.71-.18 1.4Z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div><!-- /.page -->
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three.module.js",
+    "three/addons/": "./vendor/"
+  }
+}
+</script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
